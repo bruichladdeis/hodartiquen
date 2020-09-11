@@ -1,0 +1,257 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@import url("https://use.typekit.net/gts1awf.css");
+@import url("https://use.typekit.net/gts1awf.css");
+
+body {
+    background-color: rgb(250,230,230);
+    text-align: center;
+    height: 100vh;
+}
+
+.wrapper {
+	width: 860px;
+	margin: 5px auto;
+}
+
+wrapper ul {
+	list-style: none;
+	margin-top; 0;
+}
+.wrapper ul li {
+	background: #305A5F;
+	width: 100px;
+	border: none;
+	height: 35px;
+	line-height: 30px;
+	text-align: left;
+	float: center;
+	color: rgb(255, 240, 235);
+	font-size: 17px;
+	text-decoration: none;
+	color: inherit; 
+	font font-family: 'paralucent-thin', sans-serif;
+}
+
+h1 {
+    font-family: 'paralucent-thin', sans-serif;
+	font-size: 1.3 
+    	color: rgb(15,15,15);
+}
+
+h2, h3, h4 {
+    font-family: 'paralucent-text', sans-serif;
+    margin-top: 0;
+    margin-bottom; .5em;
+	color: rgb(15,15,15);
+}
+
+h3 {
+    color: rgb(15,15,15);
+}
+
+h5 {
+    padding-bottom:  -bottom: 2em;
+	color: rgb(15,15,15);
+}
+
+p {
+    font-family: 'paralucent-text', sans-serif;
+    color: rgb(45,45,45);
+    margin: 9;
+	;
+}
+
+
+p.span-all {
+        font-size: 1.6em;
+        font-style: bold;
+        font-family: 'paralucent-text', sans-serif;
+        padding: .3em;
+        margin: 2em 0;
+}
+
+.outer {
+    padding: 0.5em;
+}
+
+article {
+	background-color: rgb(250,230,230);
+	color: rgb(45,45,45)
+}
+
+section {
+    column-count: 1;
+    column-gap: 1em;
+	color: rgb(250,230,230);
+}
+
+section > * {
+    margin-top: 0;
+    
+}
+
+.fottos {
+	
+}
+
+img {
+    width: 100%;
+    margin-bottom: -2,9em;
+	background-color: #305A5F;
+}
+
+.img-container {
+    overflow: hidden;    
+}
+
+.img-container img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: all 0.3s ease-out;
+    cursor: pointer;
+}
+
+.img-container img:hover {
+    transform: scale(1.2);
+}
+
+.banner {
+    height: auto;
+    padding: 1rem 1rem 0.5rem;
+	text-align: ;
+	background-color: #305A5F;
+}
+
+.header {
+    background-color: #305A5F;
+    text-align: left;
+}
+
+.contact-tag {
+    color: #000000;
+    text-align: right;
+    margin: auto;
+}
+.contact-info {
+    color: #000000;
+    margin: auto;
+    margin-left: 15px;
+}
+.container {
+    width: 90%;
+    min-height: 100px;
+    background: #D1D5D5;
+    margin: 20px auto 0;
+    padding-left: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer {
+    clear: both;
+    background-color: #305A5F;
+    height: 50px;
+    text-align: center;
+    color: rgb(250, 230, 240);
+    padding-top: 10px;
+    box-sizing: border-box;
+}
+
+
+
+@media only screen and (min-width: 768px) {
+    
+    body {
+        text-align: left;
+        font-size: 18px;
+    }
+    
+    
+    .banner {
+        display: inline-block;
+        width: 33%;
+		text-align: left;
+    }
+    
+    .header {
+        text-align: right;
+        margin-bottom: 0;
+        padding-bottom: 0;
+    }
+    
+    p {
+        line-height: 1.6em;
+    }
+    section {
+        column-count: 2;
+        column-rule-style: solid;;
+        column-rule-color: #636666;
+        column-rule-width: 1px;
+    }
+    
+    section > * {
+        margin-top: 0;
+    }
+    
+    h1 {
+        font-size: 3rem;
+        margin: 0 0 0 .6em;
+    }
+    
+    outer {
+        padding: 2em;
+    }
+    
+    article {
+        padding: 2em;
+    }
+    
+    h2 {
+        display: inline-block;
+        position: relative;
+        z-index: 1;
+ 	}
+    
+    img {
+        width: 100%;
+    }
+    h3 {
+        color: #000000;
+        margin: 1.5em 0 1em;
+    }
+    
+    p.span-all {
+        column-span: all;
+        font-size: 1.6em;
+        font-style: bold;
+        padding: .5em;
+        margin: 2em 0;
+        text-align: center;
+		font: 'paralucent-thin', sans-serif; 
+    }
+    
+    @media only screen and (min-width: 1100px) {
+        .outer {
+            margin: 0 auto;
+            width: 85%;
+        }
+        
+        .banner {
+            display: inline-block;
+            width: 30%;
+        }
+        
+        .header {
+        text-align: right;
+        }
+        
+        section {
+            column-count: 3;
+        }
+      
+    
